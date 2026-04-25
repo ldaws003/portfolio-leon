@@ -22,16 +22,18 @@ export default function Home() {
       >
         <div className="container mt-20 flex flex-col items-center gap-8 text-center">
           <h1 className="font-medium text-5xl text-neutral-500">
-            Walter O’Brien
+            Leon Dawson Jr
             <br />
             <span className="font-normal text-white">
-              Technology Entrepreneur
+              Software Engineer
             </span>
           </h1>
           <p className="max-w-lg font-medium text-lg text-neutral-250">
-            A globally recognized tech expert and entrepreneur, known for
-            leading advancements in cybersecurity, AI solutions, and strategic
-            consulting.
+            Detail-oriented and persistent software engineer. Team player and capable problem solver designing software solutions 
+            for high-level operations. Skilled identifying issues and translate solutions into clear, understandable, and 
+            actionable steps. Adapt and thrive in dynamic environments with demanding deadlines. Strategic thinker, recognized 
+            for driving organizational transformation, cultivating collaboration with cross-functional teams, and balancing 
+            career aspirations and department objectives to de-liver results.
           </p>
           <Button>Let's work together</Button>
         </div>
@@ -51,7 +53,7 @@ export default function Home() {
 
       {/* About */}
       <section
-        id="about"
+        id="about"s
         className={cn(
           'container relative z-10 mt-20 mb-10 grid scroll-m-12 grid-cols-1 place-content-center items-center gap-12 rounded-b-2xl bg-linear-to-tl from-white/8 to-20% p-8 md:grid-cols-12',
         )}
@@ -101,18 +103,3 @@ export default function Home() {
     </>
   )
 }
-
-// /* Halo */
-
-// box-sizing: border-box;
-
-// position: absolute;
-// width: 308px;
-// height: 311px;
-// left: 932px;
-// top: 80px;
-
-// background: linear-gradient(317.25deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 48.18%);
-// backdrop-filter: blur(7.48998px);
-// /* Note: backdrop-filter has minimal browser support */
-// border-radius: 32px;
