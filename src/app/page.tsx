@@ -52,7 +52,7 @@ export default function Home() {
 
       {/* About */}
       <section
-        id="about"s
+        id="about"
         className={cn(
           'container relative z-10 mt-20 mb-10 grid scroll-m-12 grid-cols-1 place-content-center items-center gap-12 rounded-b-2xl bg-linear-to-tl from-white/8 to-20% p-8 md:grid-cols-12',
         )}
