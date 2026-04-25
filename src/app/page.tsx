@@ -30,9 +30,7 @@ export default function Home() {
           <p className="max-w-lg font-medium text-lg text-neutral-250">
             Detail-oriented and persistent software engineer. Team player and capable problem solver designing software solutions 
             for high-level operations. Skilled identifying issues and translate solutions into clear, understandable, and 
-            actionable steps. Adapt and thrive in dynamic environments with demanding deadlines. Strategic thinker, recognized 
-            for driving organizational transformation, cultivating collaboration with cross-functional teams, and balancing 
-            career aspirations and department objectives to de-liver results.
+            actionable steps. Adapt and thrive in dynamic environments with demanding deadlines.
           </p>
           <Button>Let's work together</Button>
         </div>
