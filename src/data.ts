@@ -27,24 +27,24 @@ export const experiences: Array<{
   description: ReactNode
 }> = [
   {
-    title: 'Founder & CEO',
-    company: 'TechVantage Solutions',
-    years: '2020-Present',
+    title: 'Software Engineer, AI Annotator – Contractor',
+    company: 'Outlier AI',
+    years: '2025-Present',
     description:
-      'As Founder and CEO, I launched an AI productivity tool, growing it to 500,000 users in three years. I secured $2M in seed funding and built a 20+ member cross-functional team.',
+      'Rated the performance of several AI models on how well they answered prompts related to programming and created code for models to be trained on.',
   },
   {
-    title: 'Co-Founder',
-    company: 'InnoNext Ventures',
-    years: '2017-2019',
+    title: 'Software Engineer II',
+    company: 'Raytheon',
+    years: '2023-2024',
     description:
-      'I co-founded InnoNext Ventures, developing a SaaS CRM platform that boosted user retention by 70%. I managed the product lifecycle from concept to launch using agile methodologies.',
+      'Worked as a software engineer II where I worked on their embedded software and their in-house software libraries.',
   },
   {
-    title: 'Product Manager',
-    company: 'SwiftData Analytics',
-    years: '2015-2017',
+    title: 'Frontend Developer Intern',
+    company: 'GBCS Group',
+    years: '2022-2023',
     description:
-      'As Product Manager, I led the development of a data visualization platform, increasing enterprise adoption by 30%. I conducted market research to inform new features.',
+      'Worked on the frontend of app such as Lokomotive and worked on the prototype of a website.',
   },
 ]
