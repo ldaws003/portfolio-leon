@@ -12,12 +12,7 @@ export const navItems: Array<{
   {
     label: 'About me',
     href: '/#about',
-  },
-  {
-    label: 'Contact me',
-    href: '/contact',
-    type: 'button',
-  },
+  }
 ]
 
 export const experiences: Array<{
