@@ -8,7 +8,7 @@ import { experiences } from '~/data'
 import { cn } from '~/utils/cn'
 
 export const metadata: Metadata = {
-  title: 'Next Portfolio Starter',
+  title: 'Leon Dawson Portfolio',
 }
 
 
@@ -22,16 +22,16 @@ export default function Home() {
       >
         <div className="container mt-20 flex flex-col items-center gap-8 text-center">
           <h1 className="font-medium text-5xl text-neutral-500">
-            Leon Dawson Jr
+            Leon Dawson
             <br />
             <span className="font-normal text-white">
               Software Engineer
             </span>
           </h1>
           <p className="max-w-lg font-medium text-lg text-neutral-250">
-            Detail-oriented and persistent software engineer. Team player and capable problem solver designing software solutions 
-            for high-level operations. Skilled identifying issues and translate solutions into clear, understandable, and 
-            actionable steps. Adapt and thrive in dynamic environments with demanding deadlines.
+            Detail-oriented and persistent software engineer. Full-stack developer and AI tutor. 
+            Obtained a masters degree in computer science from CSUSB. Worked on GBCS Group's Lokomotive and annotated data for 
+            AI for Outlier AI. 
           </p>
           <Button>Let's work together</Button>
         </div>
@@ -59,12 +59,7 @@ export default function Home() {
         <div className="col-span-1 space-y-3 md:col-span-8">
           <Badge>About me</Badge>
           <p className="font-medium text-neutral-250 text-xl">
-            A globally recognized tech expert and entrepreneur, known for
-            leading advancements in cybersecurity, AI solutions, and strategic
-            consulting. As the founder of Scorpion Computer Services, I made
-            headlines at 13 by hacking NASA’s servers. Today, I help
-            corporations and governments tackle complex security and tech
-            challenges.
+            {/*TODO: fill out this about me*/}
           </p>
         </div>
       </section>
