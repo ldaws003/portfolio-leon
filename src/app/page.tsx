@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: 'Next Portfolio Starter',
 }
 
+
 export default function Home() {
   return (
     <>
