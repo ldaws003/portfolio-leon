@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import ProfilPhoto from '~/assets/profile-photo.png'
 import { Badge } from '~/components/badge'
 import { Button } from '~/components/button'
 import { ProjectCard } from '~/components/project-card'
@@ -69,11 +68,6 @@ export default function Home() {
             challenges.
           </p>
         </div>
-        <Image
-          className="col-span-1 rounded-2xl md:col-span-4"
-          src={ProfilPhoto}
-          alt=""
-        />
       </section>
 
       {/* Experience */}
