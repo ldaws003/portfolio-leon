@@ -24,7 +24,7 @@ export const Footer = () => {
           </a>
           . Source code available on{' '}
           <a
-            href="https://github.com"
+            href="https://github.com/ldaws003/portfolio-leon"
             target="_blank"
             rel="noreferrer"
             className="text-white"

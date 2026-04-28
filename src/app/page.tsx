@@ -60,6 +60,10 @@ export default function Home() {
           <Badge>About me</Badge>
           <p className="font-medium text-neutral-250 text-xl">
             {/*TODO: fill out this about me*/}
+            I'm dedicated software engineer with varied experiences in full stack development, DevOps, embedded software development,
+            and machine learning. I am currently working as a software engineer AI annotator for Outlier AI, and I volunteer for 
+            Hack for LA. I have a master's degree in computer science from CSUSB, and I have MS/BS in biomedical engineering from 
+            FIU. 
           </p>
         </div>
       </section>
