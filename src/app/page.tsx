@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: 'Leon Dawson Portfolio',
 }
 
+// TODO: remove the contact page stuff
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
           'container relative z-10 mt-20 mb-30 grid scroll-m-12 grid-cols-1 place-content-center items-center gap-4 p-8 md:grid-cols-2',
         )}
       >
-        {allProjects.map((project) => {
+        {allProjects.map((project: any) => {
           return <ProjectCard project={project} key={project.slug} />
         })}
       </section>
