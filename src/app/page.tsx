@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: 'Leon Dawson Portfolio',
 }
 
-// TODO: remove the contact page stuff
 
 export default function Home() {
   return (
@@ -42,7 +41,7 @@ export default function Home() {
       <section
         id="projects"
         className={cn(
-          'container relative z-10 mt-20 mb-30 grid scroll-m-12 grid-cols-1 place-content-center items-center gap-4 p-8 md:grid-cols-2',
+          'container relative z-10 mt-20 mb-30 grid scroll-m-12 grid-cols-1 place-content-center items-center gap-4 p-8',
         )}
       >
         {allProjects.map((project: any) => {
@@ -60,7 +59,6 @@ export default function Home() {
         <div className="col-span-1 space-y-3 md:col-span-8">
           <Badge>About me</Badge>
           <p className="font-medium text-neutral-250 text-xl">
-            {/*TODO: fill out this about me*/}
             I'm dedicated software engineer with varied experiences in full stack development, DevOps, embedded software development,
             and machine learning. I am currently working as a software engineer AI annotator for Outlier AI, and I volunteer for 
             Hack for LA. I have a master's degree in computer science from CSUSB, and I have MS/BS in biomedical engineering from 
